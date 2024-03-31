@@ -3,7 +3,8 @@
   "version": "4.7",
   "private": false,
   "scripts": {
-    "dev": "next dev",
+    "debug": "node --inspect=0.0.0.0:9229 node_modules/next/dist/bin/next dev -p 3020",
+    "dev": "next dev -p 3020",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
