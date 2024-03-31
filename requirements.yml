@@ -1,0 +1,18 @@
+name: fastgpt-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - ca-certificates=2024.2.2=hbcca054_0
+  - icu=73.2=h59595ed_0
+  - libgcc-ng=13.2.0=h807b86a_5
+  - libgomp=13.2.0=h807b86a_5
+  - libstdcxx-ng=13.2.0=h7e041cc_5
+  - libuv=1.46.0=hd590300_0
+  - libzlib=1.2.13=hd590300_5
+  - nodejs=18.19.0=hb753e55_0
+  - openssl=3.2.1=hd590300_0
+  - zlib=1.2.13=hd590300_5
+prefix: /home/shawn/miniconda3/envs/fastgpt-dev
